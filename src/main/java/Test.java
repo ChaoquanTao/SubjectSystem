@@ -1,7 +1,7 @@
-import dao.AdministratorMapper;
+import top.inewbie.dao.UserMapper;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import pojo.Administrator;
+import top.inewbie.pojo.User;
 
 public class Test {
 
@@ -9,8 +9,9 @@ public class Test {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext
                 ("spring/spring-dao.xml");
 
-        AdministratorMapper mapper = (AdministratorMapper) applicationContext.getBean(AdministratorMapper.class);
-        Administrator administrator = mapper.getAdministrator("tao");
-        System.out.println(administrator.getPassWord());
+        UserMapper mapper = (UserMapper) applicationContext.getBean(UserMapper.class);
+        System.out.println(mapper);
+        User user = mapper.getUser("tao");
+        System.out.println(user.getPassWord());
     }
 }

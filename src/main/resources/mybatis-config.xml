@@ -10,11 +10,11 @@
 
     <!--??-->
     <typeAliases>
-        <typeAlias alias="administrator" type="pojo.Administrator"/>
+        <typeAlias alias="user" type="top.inewbie.pojo.User"/>
     </typeAliases>
 
     <!--?????-->
     <mappers>
-        <mapper resource="mapper/AdministratorMapper.xml"/>
+        <mapper resource="mapper/UserMapper.xml"/>
     </mappers>
 </configuration>
