@@ -29,7 +29,7 @@ public class RedisConfig {
 
         //jedis连接工厂
         JedisConnectionFactory connectionFactory = new JedisConnectionFactory(poolConfig) ;
-        connectionFactory.setHostName("localhsot");
+        connectionFactory.setHostName("127.0.0.1");
         connectionFactory.setPort(6379);
 
         connectionFactory.afterPropertiesSet();
