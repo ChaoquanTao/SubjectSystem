@@ -11,10 +11,12 @@
     <!--??-->
     <typeAliases>
         <typeAlias alias="user" type="top.inewbie.pojo.User"/>
+        <typeAlias alias="course" type="top.inewbie.pojo.Course"/>
     </typeAliases>
 
     <!--?????-->
     <mappers>
         <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="mapper/CourseMapper.xml"/>
     </mappers>
 </configuration>

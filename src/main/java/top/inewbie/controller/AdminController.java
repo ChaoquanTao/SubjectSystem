@@ -26,9 +26,10 @@ public class AdminController {
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public @ResponseBody
     ReqResult login(@RequestBody User user){
+
         String userName = user.getUserName();
         String passWord = user.getPassWord();
-
+        System.out.println("test---");
 //        System.out.println(userName+"================"+passWord);
 //
 //        /**
