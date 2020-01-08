@@ -6,6 +6,16 @@ public class Course {
     String courseTeacher ;
     int courseCapacity ;
 
+    public Course() {
+    }
+
+    public Course(String courseId, String courseName, String courseTeacher, int courseCapacity) {
+        this.courseId = courseId;
+        this.courseName = courseName;
+        this.courseTeacher = courseTeacher;
+        this.courseCapacity = courseCapacity;
+    }
+
     public String getCourseId() {
         return courseId;
     }

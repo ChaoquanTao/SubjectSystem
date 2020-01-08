@@ -1,10 +1,12 @@
 package top.inewbie.config;
 
+import com.sun.corba.se.impl.naming.namingutil.CorbalocURL;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 import top.inewbie.pojo.Course;
+import top.inewbie.pojo.Global;
 import top.inewbie.service.CourseService;
 
 import java.util.List;
@@ -41,7 +43,12 @@ public class InitCache implements InitializingBean {
             redisTemplate.opsForHash().put(course.getCourseId(),"name",course.getCourseName());
             redisTemplate.opsForHash().put(course.getCourseId(),"teacher",course.getCourseTeacher());
             redisTemplate.opsForHash().put(course.getCourseId(),"capacity",course.getCourseCapacity());
+
+            //为所有的courseId单独再建一个hash,方便将来进行查询
+            redisTemplate.opsForSet().add(Global.COURSE_ID_SET, course.getCourseId());
         }
+
+
 
         System.out.println(redisTemplate.opsForHash().entries(courses.get(0).getCourseId())) ;
 
