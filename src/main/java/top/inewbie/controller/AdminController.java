@@ -30,27 +30,6 @@ public class AdminController {
         String userName = user.getUserName();
         String passWord = user.getPassWord();
         System.out.println("test---");
-//        System.out.println(userName+"================"+passWord);
-//
-//        /**
-//         * 查完数据库，根据查询结果生成token并返回
-//         */
-//
-//
-//        HashMap claims = new HashMap(){{
-//            put("access",false) ;
-//            put("expire",new Date(System.currentTimeMillis() + 60 * 1000));
-//            put("userName",userName) ;
-//        }};
-//
-//
-//        /**根据用户名密码查询数据库并返回相应结果*/
-//        if(userName.equals("tao") && passWord.equals("123456")){
-//            claims.put("access",true) ;
-//
-//        }
-//        String token = new JWTTokenUtil().generateToken(claims) ;
-//        return new ReqResult(200,token);
         return userService.login(userName,passWord) ;
 
     }

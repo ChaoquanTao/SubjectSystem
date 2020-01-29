@@ -12,6 +12,7 @@
     <typeAliases>
         <typeAlias alias="user" type="top.inewbie.pojo.User"/>
         <typeAlias alias="course" type="top.inewbie.pojo.Course"/>
+        <typeAlias alias="selectedCourse" type = "top.inewbie.pojo.SelectedCourse"/>
     </typeAliases>
 
     <!--?????-->

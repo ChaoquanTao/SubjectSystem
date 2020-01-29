@@ -5,9 +5,12 @@
 
 
 <mapper namespace="top.inewbie.dao.CourseMapper">
-
-
     <select id="getAllCourses" resultType="course" >
       select course_id as courseId,course_name as courseName,course_teacher as courseTeacher,course_capacity as courseCapacity from course
+    </select>
+    <select id="getSelectedCourses" resultType="selectedCourse">
+        select stu_id as stuId, course_selection.course_id as courseId, course_name as courseName, course_teacher as courseTeacher,
+        course_capacity as courseCapacity from course_selection, course
+        where course_selection.course_id  = course.course_id
     </select>
 </mapper>

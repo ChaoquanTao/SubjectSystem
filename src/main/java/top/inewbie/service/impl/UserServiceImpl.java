@@ -44,6 +44,7 @@ public class UserServiceImpl implements UserService {
 //
 //        }
         String token = new JWTTokenUtil().generateToken(claims);
+//        System.out.println("token:"+token);
         return new ReqResult(statCode, token);
     }
 }
