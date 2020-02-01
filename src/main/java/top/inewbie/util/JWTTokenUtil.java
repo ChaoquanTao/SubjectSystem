@@ -86,7 +86,7 @@ public class JWTTokenUtil {
 //        SecretKey key = Keys.hmacShaKeyFor(encodedKey) ;
         SecretKey key = new SecretKeySpec(encodedKey, 0, encodedKey.length,
                 "HmacSHA512");
-        System.out.println("general中："+key.getEncoded());
+//        System.out.println("general中："+key.getEncoded());
         return key;
     }
 

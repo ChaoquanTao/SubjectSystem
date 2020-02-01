@@ -50,7 +50,7 @@ public class InitCache implements InitializingBean {
         }
 
         /**
-         * 从数据库读取所有选课信息并写入redis
+         * 从数据库读取所有已选课程信息并写入redis
          */
         List<SelectedCourse> courseSelection = courseService.getSelectedCourses() ;
         for (SelectedCourse selectedCourse:
