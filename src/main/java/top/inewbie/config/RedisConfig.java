@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
@@ -27,6 +28,7 @@ public class RedisConfig {
         poolConfig.setMaxTotal(100);
         poolConfig.setMaxWaitMillis(20000);
 
+
         //jedis连接工厂
         JedisConnectionFactory connectionFactory = new JedisConnectionFactory(poolConfig) ;
         connectionFactory.setHostName("127.0.0.1");
@@ -42,12 +44,14 @@ public class RedisConfig {
         RedisTemplate redisTemplate = new RedisTemplate();
         redisTemplate.setConnectionFactory(connectionFactory);
 
+        GenericJackson2JsonRedisSerializer jackson2JsonRedisSerializer =
+                new GenericJackson2JsonRedisSerializer();
         //设置序列化器
         redisTemplate.setDefaultSerializer(stringSerializer);
         redisTemplate.setKeySerializer(stringSerializer);
-        redisTemplate.setValueSerializer(jdkSerializer);
+        redisTemplate.setValueSerializer(stringSerializer);
         redisTemplate.setHashKeySerializer(stringSerializer);
-        redisTemplate.setHashValueSerializer(jdkSerializer);
+        redisTemplate.setHashValueSerializer(jackson2JsonRedisSerializer);
 
         return redisTemplate;
 

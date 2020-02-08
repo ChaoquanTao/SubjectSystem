@@ -43,7 +43,8 @@ public class InitCache implements InitializingBean {
 
             redisTemplate.opsForHash().put(course.getCourseId(),"name",course.getCourseName());
             redisTemplate.opsForHash().put(course.getCourseId(),"teacher",course.getCourseTeacher());
-            redisTemplate.opsForHash().put(course.getCourseId(),"capacity",course.getCourseCapacity());
+            redisTemplate.opsForHash().put(course.getCourseId(),"capacity",
+                    course.getCourseCapacity());
 
             //为所有的courseId单独再建一个hash,方便将来进行查询
             redisTemplate.opsForSet().add(Global.COURSE_ID_SET, course.getCourseId());

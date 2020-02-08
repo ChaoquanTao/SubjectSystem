@@ -10,22 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd1d1819-a351-46ae-9da2-bf6044feef13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/pojo/AllCourses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/add_course.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/del_course.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/test/FileTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/pojo/SubmittedCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/pojo/SubmittedCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/add_course.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/del_course.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/add_course.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/del_course.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/FileTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/inewbie/pojo/SubmittedCourse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SubjectSystem_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SubjectSystem_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubjectSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/config/InitCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/config/InitCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/config/RedisConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/dao/CourseRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/dao/CourseRedis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/service/CourseService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/service/impl/CourseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/util/JWTTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SubjectSystem_war_exploded/WEB-INF/classes/top/inewbie/util/JWTTokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top/inewbie/config/InitCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/config/InitCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/inewbie/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/config/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top/inewbie/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/service/CourseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/inewbie/util/JWTTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/inewbie/util/JWTTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/inewbie/config/InitCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/inewbie/config/InitCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/inewbie/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/inewbie/config/RedisConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/top/inewbie/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/inewbie/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/inewbie/dao/CourseRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/inewbie/dao/CourseRedis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/top/inewbie/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/inewbie/service/CourseService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/top/inewbie/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/inewbie/service/impl/CourseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/inewbie/util/JWTTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/inewbie/util/JWTTokenUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -165,34 +185,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="add_course.lua" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/add_course.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            <state relative-caret-position="300">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JWTTokenUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/util/JWTTokenUtil.java">
+      <file leaf-file-name="CourseServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="85" column="2" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1260">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java">
+      <file leaf-file-name="SubmittedCourse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/SubmittedCourse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="390">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,8 +224,8 @@
       <file leaf-file-name="InitCache.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/config/InitCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="1110">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,29 +233,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectedCourse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/SelectedCourse.java">
+      <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/CourseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -240,36 +245,11 @@
       <file leaf-file-name="CourseRedis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="2670">
+              <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllCourses.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/AllCourses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-              <folding>
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -283,6 +263,7 @@
         <option value="yet_unknown" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="NewLua" />
         <option value="Class" />
       </list>
     </option>
@@ -315,8 +296,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/pojo/Administrator.java" />
         <option value="$PROJECT_DIR$/src/AdminController.java" />
         <option value="$PROJECT_DIR$/src/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AdministratorMapper.tld" />
@@ -341,7 +320,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/pojo/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/pojo/SelectedCourse.java" />
@@ -352,17 +330,23 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/pojo/Global.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/log4j/Log4jInitServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/util/JWTTokenUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/config/InitCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/service/CourseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/inewbie/pojo/AllCourses.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/subject.lua" />
+        <option value="$PROJECT_DIR$/src/main/resources/del_course.lua" />
+        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/pojo/SubmittedCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/FileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/config/InitCache.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/add_course.lua" />
+        <option value="$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java" />
       </list>
     </option>
   </component>
@@ -400,11 +384,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="width" value="1935" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -416,7 +399,39 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SubjectSystem" type="cbb8eebc:String" user="SubjectSystem" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SubjectSystem" type="cbb8eebc:String" user="SubjectSystem" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SubjectSystem" type="cbb8eebc:String" user="SubjectSystem" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SubjectSystem" type="1abcf292:AndroidViewProjectNode" />
+              <item name="SubjectSystem" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,6 +456,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SubjectSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SubjectSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SubjectSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -549,7 +572,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -565,12 +587,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MyProject\SubjectSystem\src\main\java\top\inewbie" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\workspace\SimpleMall-Admin\src\main\resources\mapper" />
       <recent name="D:\idea\workspace\SimpleMall-Admin\src\main\java\top\inewbie\dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProject\SubjectSystem\src\main\java\top\inewbie" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -612,6 +634,16 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.FileTest" />
+      <module name="SubjectSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="SubjectSystem" />
@@ -700,9 +732,11 @@
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.FileTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
@@ -750,12 +784,15 @@
       <workItem from="1580015818701" duration="18066000" />
       <workItem from="1580207836222" duration="9112000" />
       <workItem from="1580289792386" duration="19933000" />
-      <workItem from="1580353350590" duration="4912000" />
+      <workItem from="1580353350590" duration="8895000" />
+      <workItem from="1580545478710" duration="36018000" />
+      <workItem from="1580785928830" duration="2405000" />
+      <workItem from="1581135678652" duration="147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185861000" />
+    <option name="totallyTimeSpent" value="228414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,11 +804,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1548" height="831" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.33429396" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295964" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -781,21 +817,22 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42712843" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23665224" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32611832" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3295964" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="LuaCheck" order="14" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32952926" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44129553" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3295964" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33646113" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.32372653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48270893" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32853025" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.33429396" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.2966443" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" sideWeight="0.50167227" side_tool="true" weight="0.29645476" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32611832" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="REST Client" order="16" weight="0.342312" />
@@ -806,40 +843,41 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3767644" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295964" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3295964" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="REST Client" order="16" weight="0.342312" />
+      <window_info anchor="bottom" id="REST Client" order="17" weight="0.342312" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48322147" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3295964" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3295964" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4992785" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50167227" side_tool="true" weight="0.29645476" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33646113" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33526012" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32611832" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32611832" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.19731544" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3295964" />
-      <window_info anchor="bottom" id="JProfiler" order="15" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32952926" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3295964" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3767644" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.32286096" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.2885906" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42712843" />
+      <window_info anchor="bottom" id="LuaCheck" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3767644" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.23665224" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -852,93 +890,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/top/inewbie/util/JWTTokenUtil.java</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java</url>
+          <line>73</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-impl/0.10.7/jjwt-impl-0.10.7.jar!/io/jsonwebtoken/impl/DefaultClaims.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar!/io/jsonwebtoken/lang/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar!/io/jsonwebtoken/JwtException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar!/io/jsonwebtoken/security/SecurityException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar!/io/jsonwebtoken/security/KeyException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar!/io/jsonwebtoken/security/InvalidKeyException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/handler/AbstractHandlerExceptionResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/handler/AbstractHandlerMethodExceptionResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/context/request/ServletRequestAttributes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar!/io/jsonwebtoken/security/WeakKeyException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -984,20 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="531" selection-start-line="531" selection-end-line="531" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="458" selection-start-line="458" selection-end-line="458" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar!/io/jsonwebtoken/SignatureAlgorithm.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35">
@@ -1009,13 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="1141" column="19" selection-start-line="1141" selection-start-column="19" selection-end-line="1141" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -1051,13 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="141" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
         </state>
       </provider>
     </entry>
@@ -1110,13 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7200">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/log4j/Log4jInitServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1152,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/SelectedCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1166,20 +1103,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7410">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/AllCourses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/ReqResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="1337" column="18" selection-start-line="1337" selection-start-column="18" selection-end-line="1337" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/del_course.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="454" selection-start-line="454" selection-end-line="454" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="407" selection-start-line="407" selection-end-line="407" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="405" selection-start-line="405" selection-end-line="405" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/util/JWTTokenUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="85" column="2" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
+        <state relative-caret-position="175">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/FileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="53" column="72" selection-start-line="53" selection-start-column="72" selection-end-line="53" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/SubmittedCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Protocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/config/InitCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="1110">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1188,49 +1274,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/dao/CourseRedis.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/add_course.lua">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/service/impl/CourseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/inewbie/pojo/AllCourses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
