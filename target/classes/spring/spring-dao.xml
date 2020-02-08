@@ -28,19 +28,4 @@
         <!--使用annotationClass意味着使用这种注解的才去扫描它-->
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
-
-    <bean id="producer" class="top.inewbie.mq.SpringProducer" init-method="init" destroy-method="destroy">
-        <constructor-arg name="nameServerAddr" value="localhost:9876"/>
-        <constructor-arg name="producerGroupName" value="spring_producer_group"/>
-    </bean>
-
-    <bean id="messageListener" class="top.inewbie.mq.MessageListener" />
-
-    <bean id="consumer" class="top.inewbie.mq.SpringConsumer" init-method="init" destroy-method="destroy">
-        <constructor-arg name="nameServerAddr" value="localhost:9876"/>
-        <constructor-arg name="consumerGroupName" value="spring_consumer_group"/>
-        <constructor-arg name="topicName" value="spring-rocketMQ-topic" />
-        <constructor-arg name="messageListener" ref="messageListener" />
-    </bean>
-
 </beans>

@@ -28,5 +28,4 @@
         <!--使用annotationClass意味着使用这种注解的才去扫描它-->
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
-
 </beans>

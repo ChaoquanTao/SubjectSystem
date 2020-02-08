@@ -5,6 +5,8 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 import redis.clients.jedis.Jedis;
+import top.inewbie.mq.SubSelectionInsertConsumer;
+import top.inewbie.mq.SubSelectionInsertProducer;
 import top.inewbie.pojo.AllCourses;
 import top.inewbie.pojo.Course;
 import top.inewbie.pojo.Global;
@@ -67,6 +69,8 @@ public class CourseRedis {
 
     /**
      * 向redis写入选课信息，包括：生成选课信息和减少库存
+     * 同时向消息队列写入选课信息，包括：选课信息和减少库存，然后消费者从消息队列拿消息，进行持久化
+     * 问题来了：如何表示需要持久化的消息，组合成class或者根据topic来分类
      */
     public long  addCourse(String userName, String id){
         byte[] sha = null ;
@@ -98,7 +102,17 @@ public class CourseRedis {
 //        Object ojb = jedis.evalsha(sha,2,id,userName,id) ;
 //
         long res = (long) ojb;
-//        System.out.println(res);
+        System.out.println("redis操作结果："+res);
+        if(res ==1){ //说明lua脚本执行成功，开始发送给消息队列并返回
+            /**
+             * 操作消息队列
+             */
+            try {
+                new SubSelectionInsertProducer("spring-rocketMQ-topic",userName,id).sendMessage();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         return res ;
     }
 

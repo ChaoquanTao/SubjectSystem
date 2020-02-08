@@ -84,6 +84,25 @@
           <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.13" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.61" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.2" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.8.1" />
+          <element id="library" level="project" name="Maven: commons-validator:commons-validator:1.6" />
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.0.42.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:1.1.33.Fork26" />
+          <element id="library" level="project" name="Maven: junit:junit:4.13" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
+          <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-client:4.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-common:4.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-logging:4.6.0" />
+          <element id="library" level="project" name="Maven: org.apache.rocketmq:rocketmq-remoting:4.6.0" />
+          <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.1.0" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.6.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.6.0" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.2.0" />
         </element>
       </element>
     </root>
