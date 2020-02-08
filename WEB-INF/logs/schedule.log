@@ -1,0 +1,23 @@
+2020-02-08 17:06:45  [ main:0 ] - [ INFO ]  开始启动消息生产者服务...
+2020-02-08 17:06:47  [ main:1535 ] - [ INFO ]  消息生产者服务启动成功.
+2020-02-08 17:06:47  [ main:1551 ] - [ INFO ]  开始启动消息消费者服务...
+2020-02-08 17:06:47  [ main:1832 ] - [ INFO ]  消息消费者服务启动成功.
+2020-02-08 17:06:48  [ ConsumeMessageThread_1:2157 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 0
+2020-02-08 17:06:48  [ ConsumeMessageThread_2:2171 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 3
+2020-02-08 17:06:48  [ ConsumeMessageThread_3:2172 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 4
+2020-02-08 17:06:48  [ ConsumeMessageThread_4:2186 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 7
+2020-02-08 17:06:48  [ ConsumeMessageThread_5:2206 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 8
+2020-02-08 17:06:48  [ ConsumeMessageThread_6:2223 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 11
+2020-02-08 17:06:48  [ ConsumeMessageThread_7:2254 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 12
+2020-02-08 17:06:48  [ ConsumeMessageThread_8:2255 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 15
+2020-02-08 17:06:48  [ ConsumeMessageThread_9:2257 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 16
+2020-02-08 17:09:28  [ ConsumeMessageThread_1:0 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 0
+2020-02-08 17:09:28  [ ConsumeMessageThread_2:9 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 4
+2020-02-08 17:09:28  [ ConsumeMessageThread_3:9 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 3
+2020-02-08 17:09:28  [ ConsumeMessageThread_4:23 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 7
+2020-02-08 17:09:28  [ ConsumeMessageThread_5:27 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 8
+2020-02-08 17:09:28  [ ConsumeMessageThread_6:41 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 11
+2020-02-08 17:09:28  [ ConsumeMessageThread_7:48 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 12
+2020-02-08 17:09:28  [ ConsumeMessageThread_8:59 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 15
+2020-02-08 17:09:28  [ ConsumeMessageThread_9:63 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 16
+2020-02-08 17:09:28  [ ConsumeMessageThread_10:69 ] - [ INFO ]  监听到消息 : Spring RocketMQ demo 19
