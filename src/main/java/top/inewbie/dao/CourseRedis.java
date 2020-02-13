@@ -5,6 +5,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 import redis.clients.jedis.Jedis;
+import top.inewbie.mq.SpringProducer;
 import top.inewbie.mq.SubSelectionInsertConsumer;
 import top.inewbie.mq.SubSelectionInsertProducer;
 import top.inewbie.pojo.AllCourses;
@@ -21,6 +22,9 @@ import java.util.*;
 public class CourseRedis {
     @Autowired
     RedisTemplate redisTemplate ;
+
+    @Autowired
+    SpringProducer producer ;
 
     public AllCourses getAllCourses(String token){
         String name = new JWTTokenUtil().getUserNameFromeToke(token);
@@ -109,8 +113,9 @@ public class CourseRedis {
              * 操作消息队列
              */
             try {
-                new SubSelectionInsertProducer(MsgTopic.SUBJECT_SELECTION_INSERTION,userName,id).
-                        sendMessage();
+//                new SubSelectionInsertProducer(MsgTopic.SUBJECT_SELECTION_INSERTION,userName,id).
+//                        sendMessage();
+                producer.sendMessage(MsgTopic.SUBJECT_SELECTION_INSERTION,userName,id);
             } catch (Exception e) {
                 e.printStackTrace();
             }
