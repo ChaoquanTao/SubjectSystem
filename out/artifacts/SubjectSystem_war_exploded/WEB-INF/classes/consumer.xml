@@ -7,7 +7,7 @@
     <bean id="consumer" class="top.inewbie.mq.SpringConsumer" init-method="init" destroy-method="destroy">
         <constructor-arg name="nameServerAddr" value="localhost:9876"/>
         <constructor-arg name="consumerGroupName" value="spring_consumer_group"/>
-        <constructor-arg name="topicName" value="spring-rocketMQ-topic" />
+        <constructor-arg name="topicName" value="subject_selection_insertion" />
         <constructor-arg name="messageListener" ref="messageListener" />
     </bean>
 

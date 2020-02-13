@@ -18,11 +18,16 @@ public class SpringProducer {
         this.nameServerAddr = nameServerAddr;
     }
 
+
     public void init() throws Exception {
         System.out.println("开始启动消息生产者服务...");
 
         //创建一个消息生产者，并设置一个消息生产者组
-        producer = new DefaultMQProducer(producerGroupName);
+        try {
+            producer = new DefaultMQProducer(producerGroupName);
+        }catch (Exception e){
+
+        }
         //指定 NameServer 地址
         producer.setNamesrvAddr(nameServerAddr);
         //初始化 SpringProducer，整个应用生命周期内只需要初始化一次

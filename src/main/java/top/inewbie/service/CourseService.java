@@ -15,4 +15,6 @@ public interface CourseService {
     AllCourses getAllCoursesFromRedis(String token) ;
 
     boolean submitCourse(SubmittedCourse submittedCourse) ;
+
+    void addCourseSelection(String userId, String courseId) ;
 }

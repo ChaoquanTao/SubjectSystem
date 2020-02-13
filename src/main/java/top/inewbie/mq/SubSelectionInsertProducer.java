@@ -9,21 +9,31 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import top.inewbie.pojo.SelectedCourse;
 
 public class SubSelectionInsertProducer {
-    private ApplicationContext container;
+    private ApplicationContext container ;
     private String topic ;
     private String userId ;
     private String courseId ;
 
+    private SpringProducer producer ;
+
     public SubSelectionInsertProducer(String topic, String userID, String courseId) {
-        this.container = new ClassPathXmlApplicationContext(
-                "classpath:producer.xml");
+        try {
+            this.container = new ClassPathXmlApplicationContext(
+                    "classpath:producer.xml");
+        }catch (Exception e){
+
+        }
         this.topic = topic ;
+
         this.userId = userID ;
         this.courseId = courseId ;
+
+        producer = container.getBean(SpringProducer.class);
+
     }
 
     public void sendMessage() throws Exception {
-        SpringProducer producer = container.getBean(SpringProducer.class);
+//      producer = container.getBean(SpringProducer.class);
 
         System.out.println("producer发送信息中。。。");
             //创建一条消息对象，指定其主题、标签和消息内容
@@ -32,12 +42,12 @@ public class SubSelectionInsertProducer {
                     null,
                     JSON.toJSONString(new SelectedCourse(userId,courseId)).getBytes(RemotingHelper.DEFAULT_CHARSET) /* 消息内容 */
             );
-        System.out.println("信息已经发送，等待接收");
+
             //发送消息并返回结果
             SendResult sendResult = producer.getProducer().send(msg);
-
+        System.out.println("信息已经发送，等待接收");
 //            System.out.printf("%s%n", sendResult);
-            System.out.println(sendResult);
+            System.out.println("sendresult:"+sendResult);
 
     }
 }

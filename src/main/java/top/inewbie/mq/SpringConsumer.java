@@ -27,6 +27,9 @@ public class SpringConsumer {
         this.messageListener = messageListener;
     }
 
+    public void setTopicName(String topicName) {
+        this.topicName = topicName;
+    }
 
     public void init() throws Exception {
         System.out.println("开始启动消息消费者服务...");

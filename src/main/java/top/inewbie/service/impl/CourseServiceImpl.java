@@ -62,4 +62,11 @@ public class CourseServiceImpl implements CourseService {
 
         return false;
     }
+
+    @Override
+    public void addCourseSelection(String userId, String courseId) {
+        System.out.println("in courseServiceImpl");
+        String res = courseMapper.insertSelectedCourse(userId,courseId);
+        System.out.println("插入后返回值："+res);
+    }
 }

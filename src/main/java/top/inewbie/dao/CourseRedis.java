@@ -10,6 +10,7 @@ import top.inewbie.mq.SubSelectionInsertProducer;
 import top.inewbie.pojo.AllCourses;
 import top.inewbie.pojo.Course;
 import top.inewbie.pojo.Global;
+import top.inewbie.pojo.MsgTopic;
 import top.inewbie.util.JWTTokenUtil;
 
 import java.io.*;
@@ -108,7 +109,8 @@ public class CourseRedis {
              * 操作消息队列
              */
             try {
-                new SubSelectionInsertProducer("spring-rocketMQ-topic",userName,id).sendMessage();
+                new SubSelectionInsertProducer(MsgTopic.SUBJECT_SELECTION_INSERTION,userName,id).
+                        sendMessage();
             } catch (Exception e) {
                 e.printStackTrace();
             }

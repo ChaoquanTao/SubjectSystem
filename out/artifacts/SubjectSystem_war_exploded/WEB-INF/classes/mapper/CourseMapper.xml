@@ -13,4 +13,9 @@
         course_capacity as courseCapacity from course_selection, course
         where course_selection.course_id  = course.course_id
     </select>
+
+    <insert id="insertSelectedCourse" parameterType="String" useGeneratedKeys="true" keyProperty="stu_id">
+        insert into
+          course_selection (stu_id, course_id) values (#{stuId},#{courseId})
+    </insert>
 </mapper>

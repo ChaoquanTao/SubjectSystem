@@ -10,4 +10,6 @@ import java.util.List;
 public interface CourseMapper {
     List<Course> getAllCourses() ;
     List<SelectedCourse> getSelectedCourses() ;
+
+    String insertSelectedCourse(String userId, String courseId) ;
 }
