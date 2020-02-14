@@ -125,16 +125,41 @@ public class CourseRedis {
 
     /**
      * 向redis写入退课信息，包括：删除选课信息和减少库存
+     * 同时向mq发送消息进行持久化
      * @param id
      * @return
      */
-    public int deleteCourse(String userName, String id){
-        return  0 ;
+    public long deleteCourse(String userName, String id){
+        byte[] sha = null ;
+        Jedis jedis = (Jedis) redisTemplate.getConnectionFactory().getConnection().getNativeConnection();
+        byte[] fileBytes = file2byte("del_course.lua") ;
+        if(sha==null) {
+            sha = jedis.scriptLoad(fileBytes);
+            System.out.println(sha);
+        }
+        System.out.println("in delete:"+userName+" "+id);
+        Object ojb = jedis.evalsha(sha,2,userName.getBytes(),
+                id.getBytes(),id.getBytes()) ;
+        long res = (long) ojb;
+        System.out.println("redis删除选课操作结果："+res);
+        if(res ==1){ //说明lua脚本执行成功，开始发送给消息队列并返回
+            /**
+             * 操作消息队列
+             */
+            try {
+//                new SubSelectionInsertProducer(MsgTopic.SUBJECT_SELECTION_INSERTION,userName,id).
+//                        sendMessage();
+                producer.sendMessage(MsgTopic.SUBJECT_SELECTION_DELETION,userName,id);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return res ;
     }
 
     public byte[] file2byte(String fileName){
 //        File file = new File()
-        ClassPathResource classPathResource = new ClassPathResource("add_course.lua");
+        ClassPathResource classPathResource = new ClassPathResource(fileName);
 
         // 获得File对象，当然也可以获取输入流对象
         try {
