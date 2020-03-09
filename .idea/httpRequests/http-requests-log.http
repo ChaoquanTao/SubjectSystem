@@ -1,8 +1,0 @@
-GET http://localhost:8800/api/getAllCourses
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-01-08T050914.404.html
-
-###
-
